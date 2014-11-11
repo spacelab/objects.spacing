@@ -6,47 +6,75 @@ $spacing-unit--quarter:    $spacing-unit / 4;
 $spacing-unit--double:     $spacing-unit * 2;
 $spacing-unit--quadruple:  $spacing-unit * 4;
 
+%leading,
+%leading--half,
+%leading--quarter,
+%leading--double,
+%leading--quadruple,
+%trailing,
+%trailing--half,
+%trailing--quarter,
+%trailing--double,
+%trailing--quadruple,
 .leading,
-.trailing {
+.leading--half,
+.leading--quarter,
+.leading--double,
+.leading--quadruple,
+.trailing,
+.trailing--half,
+.trailing--quarter,
+.trailing--double,
+.trailing--quadruple {
   display: block;
 }
 
+%leading,
 .leading {
   margin-top: rem($spacing-unit);
 }
 
+%leading--half,
 .leading--half {
   margin-top: rem($spacing-unit--half);
 }
 
+%leading--quarter,
 .leading--quarter {
   margin-top: rem($spacing-unit--quarter);
 }
 
+%leading--double,
 .leading--double {
   margin-top: rem($spacing-unit--double);
 }
 
+%leading--quadruple,
 .leading--quadruple {
   margin-top: rem($spacing-unit--quadruple);
 }
 
+%trailing,
 .trailing {
   margin-bottom: rem($spacing-unit);
 }
 
+%trailing--half,
 .trailing--half {
   margin-bottom: rem($spacing-unit--half);
 }
 
+%trailing--quarter,
 .trailing--quarter {
   margin-bottom: rem($spacing-unit--quarter);
 }
 
+%trailing--double,
 .trailing--double {
   margin-bottom: rem($spacing-unit--double);
 }
 
+%trailing--quadruple,
 .trailing--quadruple {
   margin-bottom: rem($spacing-unit--quadruple);
 }
