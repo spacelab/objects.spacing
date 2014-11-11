@@ -1,0 +1,52 @@
+$spacing-unit:             24px !default;
+
+$spacing-unit--half:       $spacing-unit / 2 !default;
+$spacing-unit--quarter:    $spacing-unit / 4 !default;
+
+$spacing-unit--double:     $spacing-unit * 2 !default;
+$spacing-unit--quadruple:  $spacing-unit * 4 !default;
+
+.leading,
+.trailing {
+  display: block;
+}
+
+.leading {
+  margin-top: rem($spacing-unit);
+}
+
+.leading--half {
+  margin-top: rem($spacing-unit--half);
+}
+
+.leading--quarter {
+  margin-top: rem($spacing-unit--quarter);
+}
+
+.leading--double {
+  margin-top: rem($spacing-unit--double);
+}
+
+.leading--quadruple {
+  margin-top: rem($spacing-unit--quadruple);
+}
+
+.trailing {
+  margin-bottom: rem($spacing-unit);
+}
+
+.trailing--half {
+  margin-bottom: rem($spacing-unit--half);
+}
+
+.trailing--quarter {
+  margin-bottom: rem($spacing-unit--quarter);
+}
+
+.trailing--double {
+  margin-bottom: rem($spacing-unit--double);
+}
+
+.trailing--quadruple {
+  margin-bottom: rem($spacing-unit--quadruple);
+}
