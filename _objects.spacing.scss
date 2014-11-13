@@ -1,10 +1,9 @@
-$spacing-unit:             24px !default;
+$spacing:             $base-spacing !default;
 
-$spacing-unit--half:       $spacing-unit / 2;
-$spacing-unit--quarter:    $spacing-unit / 4;
-
-$spacing-unit--double:     $spacing-unit * 2;
-$spacing-unit--quadruple:  $spacing-unit * 4;
+$spacing--quarter:    $spacing / 4 !default;
+$spacing--half:       $spacing / 2 !default;
+$spacing--double:     $spacing * 2 !default;
+$spacing--quadruple:  $spacing * 4 !default;
 
 %leading,
 %leading--half,
@@ -31,50 +30,50 @@ $spacing-unit--quadruple:  $spacing-unit * 4;
 
 %leading,
 .leading {
-  margin-top: rem($spacing-unit);
+  margin-top: rem($spacing);
 }
 
 %leading--half,
 .leading--half {
-  margin-top: rem($spacing-unit--half);
+  margin-top: rem($spacing--half);
 }
 
 %leading--quarter,
 .leading--quarter {
-  margin-top: rem($spacing-unit--quarter);
+  margin-top: rem($spacing--quarter);
 }
 
 %leading--double,
 .leading--double {
-  margin-top: rem($spacing-unit--double);
+  margin-top: rem($spacing--double);
 }
 
 %leading--quadruple,
 .leading--quadruple {
-  margin-top: rem($spacing-unit--quadruple);
+  margin-top: rem($spacing--quadruple);
 }
 
 %trailing,
 .trailing {
-  margin-bottom: rem($spacing-unit);
+  margin-bottom: rem($spacing);
 }
 
 %trailing--half,
 .trailing--half {
-  margin-bottom: rem($spacing-unit--half);
+  margin-bottom: rem($spacing--half);
 }
 
 %trailing--quarter,
 .trailing--quarter {
-  margin-bottom: rem($spacing-unit--quarter);
+  margin-bottom: rem($spacing--quarter);
 }
 
 %trailing--double,
 .trailing--double {
-  margin-bottom: rem($spacing-unit--double);
+  margin-bottom: rem($spacing--double);
 }
 
 %trailing--quadruple,
 .trailing--quadruple {
-  margin-bottom: rem($spacing-unit--quadruple);
+  margin-bottom: rem($spacing--quadruple);
 }
